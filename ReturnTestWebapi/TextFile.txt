@@ -1,0 +1,20 @@
+﻿
+
+SELECT *
+FROM customers
+WHERE name LIKE '%Joe'
+
+
+
+SELECT * FROM customers c
+inner join order o 
+on c.custermerid=o.custermerid
+where customername='Joe' and CreatedAt>=''11/1/2016''
+
+
+
+SELECT * FROM customers c
+inner join order o 
+on c.custermerid=o.custermerid
+on inner join product p
+on c.
